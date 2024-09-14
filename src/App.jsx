@@ -12,9 +12,9 @@ export default function App(){
   };
   const getPigImage = () => {
     if (level < 100) {
-      return "./image/pig.jpg";
+      return "src/image/pig.jpg";
     } else {
-      return "./image/tae.jpg";
+      return "src/image/tae.jpg";
     }
   };
   const imageSrc = `${getPigImage()}?t=${Date.now()}`;
@@ -31,9 +31,9 @@ export default function App(){
     </div>
 
     <div className="food">
-      <img src="./image/grass.png" alt="หญ้า"  onClick={() => foodPig(5)}/>
-      <img src="./image/melon.jpg" alt="เเตงโม" onClick={() => foodPig(15)} />
-      <img src="./image/pumpkin.jpg" alt="ฟักทอง" onClick={() => foodPig(25)}/>
+      <img src="src/image/grass.png" alt="หญ้า"  onClick={() => foodPig(5)}/>
+      <img src="src/image/melon.jpg" alt="เเตงโม" onClick={() => foodPig(15)} />
+      <img src="src/image/pumpkin.jpg" alt="ฟักทอง" onClick={() => foodPig(25)}/>
     </div>
     <div className="but">
       <button onClick={reset}>รีเซ็ต</button>
