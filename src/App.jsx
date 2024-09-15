@@ -31,9 +31,9 @@ export default function App(){
     </div>
 
     <div className="food">
-      <img src="src/image/grass.png" alt="หญ้า"  onClick={() => foodPig(5)}/>
-      <img src="src/image/melon.jpg" alt="เเตงโม" onClick={() => foodPig(15)} />
-      <img src="src/image/pumpkin.jpg" alt="ฟักทอง" onClick={() => foodPig(25)}/>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFsamcEPABAs73p_r_BVpsRYSLJeVpKc2r1g&s" alt="หญ้า"  onClick={() => foodPig(5)}/>
+      <img src="https://png.pngtree.com/thumb_back/fw800/background/20231217/pngtree-watermelon-exploding-explosion-splashing-with-water-in-the-air-image_15517332.jpg" alt="เเตงโม" onClick={() => foodPig(15)} />
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqwfMUzDyh4d77RrSKPQQH4JBsILBhu1NTw6nkvWYjv-9zkRum-9gVKud4ytaEF0XNIqo&usqp=CAU" alt="ฟักทอง" onClick={() => foodPig(25)}/>
     </div>
     <div className="but">
       <button onClick={reset}>รีเซ็ต</button>
