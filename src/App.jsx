@@ -12,9 +12,9 @@ export default function App(){
   };
   const getPigImage = () => {
     if (level < 100) {
-      return "src/image/pig.jpg";
+      return "https://s.isanook.com/ca/0/ui/285/1425863/456297891_524049350135160_3920066301112261792_n.jpg";
     } else {
-      return "src/image/tae.jpg";
+      return "https://shopping.moointer.com/wp-content/uploads/2019/12/%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B9%80%E0%B8%94%E0%B9%89%E0%B8%87.png";
     }
   };
   const imageSrc = `${getPigImage()}?t=${Date.now()}`;
